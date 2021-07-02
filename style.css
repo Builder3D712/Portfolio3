@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+h1 {
+    color: rgb(255, 153, 0);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header {
+    background-color: rgb(0, 166, 172);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Game {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+}
+
+p,
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
